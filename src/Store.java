@@ -13,8 +13,8 @@ public class Store {
     public static int itemIn = 4;
     public static int heldID = -1;
     public static int realID = -1;
-    public static int[] buttonID = {Value.airMario ,Value.airCreeper,Value.airMad,Value.airAir,Value.airAir,Value.airAir,Value.airAir,Value.airCancel};
-    public static int[] buttonPrice = {10,25,50,0,0,0,0,0};
+    public static int[] buttonID = {Value.airMario ,Value.airCreeper,Value.airMad,Value.airPepe,Value.airStar,Value.airGD,Value.airBruh,Value.airCancel};
+    public static int[] buttonPrice = {10,25,50,75,100,150,250,0};
 
     public Rectangle[] button = new Rectangle[shopWidth];
     public Rectangle buttonHealth;
